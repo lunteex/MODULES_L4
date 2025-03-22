@@ -1,0 +1,14 @@
+{
+  "name": "moduls_l4",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nodemon src/libs/envConfig.js .env.production",
+    "start": "nodemon src/libs/envConfig.js .env.development",
+    "deploy": "nodemon src/libs/envConfig.js .env.domain"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
